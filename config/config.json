@@ -1,0 +1,28 @@
+{
+    "options": {
+        "paths": {
+            "fonts": "/data/fonts",
+            "styles": "/styles",
+            "sprites": "/styles",
+            "mbtiles": "/data"
+        },
+        "domains": ["localhost:8080", "127.0.0.1:8080"],
+        "formatQuality": {
+            "jpeg": 80,
+            "webp": 90
+        }
+    },
+    "styles": {
+        "default": {
+            "style": "style.json",
+            "tilejson": {
+                "type": "overlay"
+            }
+        }
+    },
+    "data": {
+        "v3": {
+            "mbtiles": "tiles.mbtiles"
+        }
+    }
+}

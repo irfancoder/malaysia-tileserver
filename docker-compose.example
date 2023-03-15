@@ -1,0 +1,15 @@
+# @format
+
+version: '3.3'
+
+services:
+    tileserver:
+        image: maptiler/tileserver-gl
+        command: ['-p', '8080', '-c', '/config/config.json', '--verbose']
+        ports:
+            - 127.0.0.1:8080:8080
+        volumes:
+            - ./config:/config
+            - ./data:/data
+            - ./styles:/styles
+            - ./build:/build
