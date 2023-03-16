@@ -13,8 +13,14 @@
         }
     },
     "styles": {
-        "default": {
-            "style": "style.json",
+        "light": {
+            "style": "light/style.json",
+            "tilejson": {
+                "type": "overlay"
+            }
+        },
+        "dark": {
+            "style": "dark/style.json",
             "tilejson": {
                 "type": "overlay"
             }
@@ -22,7 +28,10 @@
     },
     "data": {
         "v3": {
-            "mbtiles": "tiles.mbtiles"
+            "mbtiles": "malaysia-singapore-brunei.mbtiles"
+        },
+        "contour": {
+            "mbtiles": "contour.mbtiles"
         }
     }
 }
