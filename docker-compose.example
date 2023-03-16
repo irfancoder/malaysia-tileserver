@@ -13,3 +13,7 @@ services:
             - ./data:/data
             - ./styles:/styles
             - ./build:/build
+    maputnik:
+        image: maputnik/editor
+        ports:
+            - 8888:8888

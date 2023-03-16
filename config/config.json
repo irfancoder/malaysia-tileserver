@@ -24,14 +24,32 @@
             "tilejson": {
                 "type": "overlay"
             }
+        },
+        "terrain": {
+            "style": "terrain/style.json",
+            "tilejson": {
+                "type": "overlay"
+            }
         }
     },
     "data": {
         "v3": {
             "mbtiles": "malaysia-singapore-brunei.mbtiles"
         },
-        "contour": {
-            "mbtiles": "contour.mbtiles"
+        "hillshade": {
+            "mbtiles": "hillshade.mbtiles"
+        },
+        "contour_10": {
+            "mbtiles": "contour_10.mbtiles"
+        },
+        "contour_20": {
+            "mbtiles": "contour_20.mbtiles"
+        },
+        "contour_40": {
+            "mbtiles": "contour_40.mbtiles"
+        },
+        "contour_80": {
+            "mbtiles": "contour_80.mbtiles"
         }
     }
 }
