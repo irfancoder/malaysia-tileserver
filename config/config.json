@@ -14,13 +14,13 @@
     },
     "styles": {
         "light": {
-            "style": "light/style.json",
+            "style": "positron/style.json",
             "tilejson": {
                 "type": "overlay"
             }
         },
         "dark": {
-            "style": "dark/style.json",
+            "style": "dark-matter/style.json",
             "tilejson": {
                 "type": "overlay"
             }

@@ -33,9 +33,11 @@ cp docker-compose.example docker-compose.yml
 mkdir data
 ```
 
-3. Download the map data: [Malaysia-Singapore-Brunei\*](https://drive.google.com/file/d/1f9MllVDNz9BSBuIFCkST55tq14F2CDMP/view?usp=share_link) and extract it inside `/data`
+3. Download the map data (.zip) and extract it inside `/data`
 
-\*_Old version; will update the latest version soon (17 Mar 2023)_
+-   [\*Malaysia-Singapore-Brunei Map Pack [1.4GB] (Google Drive)](https://drive.google.com/file/d/1f9MllVDNz9BSBuIFCkST55tq14F2CDMP/view?usp=share_link)
+
+\*_10m contour line not included yet_
 
 ## Usage
 
@@ -50,6 +52,8 @@ To stop the server:
 ```bash
 docker-compose down
 ```
+
+To checkout the map tiles and preview the styles & layers, open up http://localhost:8080 in your browser.
 
 You can use this mapserver to provide for your client-side apps. Works well with client-side mapping library like [leaflet.js](https://leafletjs.com/) or [mapbox](https://www.mapbox.com/)
 
